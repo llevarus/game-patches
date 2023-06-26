@@ -8,9 +8,9 @@ hash = "EE56F849188A6A20" # default.xex
     author = "illusion"
     is_enabled = false
 
-    [[patch.be32]]
-        address = 0x82ba3018
-        value = 0x39600001
+    [[patch.be8]]
+        address = 0x82ba305b
+        value = 0x01
 
 [[patch]]
     name = "1280x720 Resolution"
